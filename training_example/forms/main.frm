@@ -12,21 +12,14 @@ extendsID:"2A5F4A4C-AB7B-4911-B94F-34313023357A",
 items:[
 {
 containsFormID:"BCC18E84-CDFE-4E1A-83AB-5845005D3BC4",
-location:"176,155",
+location:"189,156",
 text:"Responsive",
 typeid:15,
 uuid:"088BAB12-F735-4ED2-9B23-F841317C9327"
 },
 {
-containsFormID:"E49107D6-70AD-4C47-B626-D68F68218E21",
-location:"501,156",
-text:"Web Services",
-typeid:15,
-uuid:"3CC725E0-F9C9-4994-B62C-30ACB9AD9779"
-},
-{
 containsFormID:"941A1041-6124-454A-9E39-186D3028C013",
-location:"263,155",
+location:"282,159",
 text:"Solution Model",
 typeid:15,
 uuid:"5AC42A15-F2E5-48AA-A1ED-2B4BAA1D70FA"
@@ -40,17 +33,10 @@ uuid:"C381EB18-67DF-4668-A244-8939C1D48F92"
 },
 {
 containsFormID:"F4D1DB02-1382-4DC2-8B81-A3C230D71C8E",
-location:"99,155",
+location:"102,155",
 text:"Mini CRM",
 typeid:15,
 uuid:"E7B88F5A-3FD6-4057-BACF-45332664EB8B"
-},
-{
-containsFormID:"67146EDC-3D46-4884-8BE7-A1E4E432B20E",
-location:"371,155",
-text:"Web Components",
-typeid:15,
-uuid:"EF05B2B5-102C-4A6D-9C24-C2D9600CC5F6"
 }
 ],
 location:"20,130",
