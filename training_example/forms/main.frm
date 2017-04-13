@@ -12,29 +12,29 @@ extendsID:"2A5F4A4C-AB7B-4911-B94F-34313023357A",
 items:[
 {
 containsFormID:"BCC18E84-CDFE-4E1A-83AB-5845005D3BC4",
-location:"171,156",
-text:"responsive",
+location:"189,156",
+text:"Responsive",
 typeid:15,
 uuid:"088BAB12-F735-4ED2-9B23-F841317C9327"
 },
 {
 containsFormID:"941A1041-6124-454A-9E39-186D3028C013",
-location:"252,156",
-text:"solutionModel",
+location:"282,159",
+text:"Solution Model",
 typeid:15,
 uuid:"5AC42A15-F2E5-48AA-A1ED-2B4BAA1D70FA"
 },
 {
 containsFormID:"8ED9DE59-4521-4178-8AE6-8C56F777A429",
 location:"33,156",
-text:"customers",
+text:"C.R.U.D",
 typeid:15,
 uuid:"C381EB18-67DF-4668-A244-8939C1D48F92"
 },
 {
 containsFormID:"F4D1DB02-1382-4DC2-8B81-A3C230D71C8E",
-location:"113,156",
-text:"orders",
+location:"102,155",
+text:"Mini CRM",
 typeid:15,
 uuid:"E7B88F5A-3FD6-4057-BACF-45332664EB8B"
 }

@@ -12,8 +12,8 @@ location:"10,10",
 onActionMethodID:"AA2924D5-C9B5-4F55-82A4-1F561DCFB503",
 onDoubleClickMethodID:"-1",
 onRightClickMethodID:"-1",
-size:"190,30",
-text:"Show Customer Selection",
+size:"250,30",
+text:"Dynamic Customer Selection Dialog",
 typeid:7,
 uuid:"DECD8ED3-1E57-4928-BE0D-4C764C52A1C5"
 }
