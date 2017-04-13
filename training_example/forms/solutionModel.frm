@@ -1,0 +1,15 @@
+customProperties:"formComponent:false",
+encapsulation:60,
+items:[
+{
+height:480,
+partType:5,
+typeid:19,
+uuid:"2792E789-2B85-4B6E-AD25-29F0BDD63462"
+}
+],
+name:"solutionModel",
+onLoadMethodID:"450891C7-BF44-4313-9E59-E8FBB21CC6A8",
+showInMenu:true,
+typeid:3,
+uuid:"941A1041-6124-454A-9E39-186D3028C013"

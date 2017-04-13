@@ -1,0 +1,13 @@
+@import url("example.css");
+
+.btn-training {
+	background-color: lightblue;
+	width: 100%;
+	height: 150px;
+	color: white;
+	border: 5px solid black;
+	margin-bottom: 5px;
+	margin-top: 10px;
+	font-size: 50px;
+	font-weight: bold;
+}
