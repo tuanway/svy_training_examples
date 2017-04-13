@@ -1,0 +1,14 @@
+customProperties:"formComponent:false",
+encapsulation:60,
+items:[
+{
+height:480,
+partType:5,
+typeid:19,
+uuid:"39B2F1E9-3DD8-433C-B098-A70CA7F5184C"
+}
+],
+name:"generic_popup",
+showInMenu:true,
+typeid:3,
+uuid:"90CCA0A0-6D09-4B6B-A753-D83910ACB593"

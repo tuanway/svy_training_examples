@@ -6,6 +6,16 @@ height:480,
 partType:5,
 typeid:19,
 uuid:"2792E789-2B85-4B6E-AD25-29F0BDD63462"
+},
+{
+location:"10,10",
+onActionMethodID:"AA2924D5-C9B5-4F55-82A4-1F561DCFB503",
+onDoubleClickMethodID:"-1",
+onRightClickMethodID:"-1",
+size:"190,30",
+text:"Show Customer Selection",
+typeid:7,
+uuid:"DECD8ED3-1E57-4928-BE0D-4C764C52A1C5"
 }
 ],
 name:"solutionModel",
