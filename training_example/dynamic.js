@@ -34,12 +34,11 @@ function createDynamicCustomer() {
  */
 function selectLanguage(){
 	var types = [JSColumn.TEXT, JSColumn.NUMBER, JSColumn.TEXT];
-	var col = ['language','select', 'idx']
-	var col_title = ['Language', 'Select', 'ID']
+	var col = ['language','select', 'idx'];
+	var col_title = ['Language', 'Select', 'ID'];
 	var ds = databaseManager.createEmptyDataSet(0, col);
-	ds.addRow(['English', 0, 'en'])
-	ds.addRow(['French', 0, 'fr'])
-	
+	ds.addRow(['English', 0, 'en']);
+	ds.addRow(['French', 0, 'fr']);	
 
 	var selection = createGenericPopup(ds, types, col, col_title, 'Select Language', 460, 500);
 

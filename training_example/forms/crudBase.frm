@@ -9,6 +9,7 @@ uuid:"099FC3F0-04D7-40DD-B200-BBAE38AA2B31"
 },
 {
 json:{
+displaysTags:true,
 location:{
 x:350,
 y:421
@@ -18,7 +19,7 @@ size:{
 height:30,
 width:90
 },
-text:"<span class=\"fa fa-plus\"/> New"
+text:"<span class=\"fa fa-plus\"/> %%i18n:training.crud.controls.new%%"
 },
 location:"350,421",
 name:"new_btn",
@@ -30,6 +31,7 @@ uuid:"1EABCAEA-504C-46D8-A8DD-1D9770B09C19"
 {
 enabled:false,
 json:{
+displaysTags:true,
 enabled:false,
 location:{
 x:738,
@@ -40,7 +42,7 @@ size:{
 height:30,
 width:90
 },
-text:"<span class=\"fa fa-undo\"/> Cancel",
+text:"<span class=\"fa fa-undo\"/> %%i18n:training.crud.controls.cancel%%",
 visible:true
 },
 location:"738,420",
@@ -52,6 +54,7 @@ uuid:"26D4EC28-65DA-4661-959E-D318354660F4"
 },
 {
 json:{
+displaysTags:true,
 location:{
 x:254,
 y:421
@@ -61,7 +64,7 @@ size:{
 height:30,
 width:90
 },
-text:"<span class=\"fa fa-search\"/> Search"
+text:"<span class=\"fa fa-search\"/> %%i18n:training.crud.controls.search%%"
 },
 location:"254,421",
 name:"search_btn",
@@ -82,6 +85,7 @@ uuid:"7D8C2CE4-2AFF-48DF-B165-98FECDB8632E"
 },
 {
 json:{
+displaysTags:true,
 location:{
 x:447,
 y:421
@@ -91,7 +95,7 @@ size:{
 height:30,
 width:90
 },
-text:"<span class=\"fa fa-pencil-square-o\"/> Edit"
+text:"<span class=\"fa fa-pencil-square-o\"/> %%i18n:training.crud.controls.edit%%"
 },
 location:"447,421",
 name:"edit_btn",
@@ -109,6 +113,7 @@ uuid:"B0A5D176-A788-4CA0-B6DD-825D571976AD"
 {
 enabled:false,
 json:{
+displaysTags:true,
 enabled:false,
 location:{
 x:640,
@@ -119,7 +124,7 @@ size:{
 height:30,
 width:90
 },
-text:"<span class=\"fa fa-floppy-o\"/> Save",
+text:"<span class=\"fa fa-floppy-o\"/> %%i18n:training.crud.controls.save%%",
 visible:true
 },
 location:"640,420",
@@ -131,6 +136,7 @@ uuid:"BA266709-A624-421E-8F2D-C4CCEF3DF724"
 },
 {
 json:{
+displaysTags:true,
 location:{
 x:21,
 y:421
@@ -140,7 +146,7 @@ size:{
 height:30,
 width:110
 },
-text:"<span class=\"fa fa-arrow-left\"/> Previous Record"
+text:"<span class=\"fa fa-arrow-left\"/> %%i18n:training.crud.controls.prev%%"
 },
 location:"21,421",
 name:"prev_btn",
@@ -151,6 +157,7 @@ uuid:"CC078B06-F3EA-49E2-919F-4B80F0CC6846"
 },
 {
 json:{
+displaysTags:true,
 location:{
 x:543,
 y:421
@@ -160,7 +167,7 @@ size:{
 height:30,
 width:90
 },
-text:"<span class=\"fa fa-trash-o\"/> Delete"
+text:"<span class=\"fa fa-trash-o\"/> %%i18n:training.crud.controls.delete%%"
 },
 location:"543,421",
 name:"delete_btn",
@@ -171,6 +178,7 @@ uuid:"FC05B4D1-7BAA-4C20-9B41-B2FB6353865E"
 },
 {
 json:{
+displaysTags:true,
 location:{
 x:138,
 y:421
@@ -180,7 +188,8 @@ size:{
 height:30,
 width:110
 },
-text:"<span class=\"fa fa-arrow-right\"/> Next Record"
+text:" <span class=\"fa fa-arrow-right\"/> %%i18n:training.crud.controls.next%%\
+"
 },
 location:"138,421",
 name:"next_btn",

@@ -51,8 +51,9 @@ function cancel(event) {
 
 /**
  * Show form
- * @param width
- * @param height
+ * @param {String} title
+ * @param {Number} width
+ * @param {Number} height
  *
  * @properties={typeid:24,uuid:"842203A8-E08F-4D4D-88EB-973A20C94817"}
  */
