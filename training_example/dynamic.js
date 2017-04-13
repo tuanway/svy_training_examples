@@ -9,11 +9,11 @@ function createDynamicCustomer() {
 	var db = datasources.db.example_data.customers.getFoundSet();
 	db.loadAllRecords();
 	for (var i = 1; i <= db.getSize(); i++) {
-		var rec = db.getRecord(i);
+		var rec = db.getRecord(i);	
 		ds.addRow([rec.companyname, rec.country, 0, rec.customerid])
 	}
 
-	var selection = createGenericPopup(ds, types, col, col_title, 'Select Customer Records', 390, 500);
+	var selection = createGenericPopup(ds, types, col, col_title, 'Select Customer Records', 460, 500);
 	var ret = '';
 
 	for (var j = 1; j <= selection.getMaxRowIndex(); j++) {
@@ -49,18 +49,17 @@ function createGenericPopup(ds, types, col, col_title, win_title, width, height)
 	var f = solutionModel.newForm('generic_pop_up', null, null, true, width, height);
 	f.view = JSForm.LOCKED_TABLE_VIEW;
 	f.dataSource = ds.createDataSource(application.getUUID().toString(), types);
-	f.extendsForm = 'generic_popup'
-	f.styleClass = 'grid';
+	f.extendsForm = 'generic_popup'		
 	f.newPart(JSPart.FOOTER, 550);
-
+	
 	//add buttons and reference methods
-	var ok_btn = f.newButton('Ok', 200, 515, 68, 21, f.getMethod('ok'))
-	var cancl_btn = f.newButton('Cancel', 300, 515, 75, 20, f.getMethod('cancel'));
+	var ok_btn = f.newButton('<span class="fa fa-floppy-o"/> OK', 200, 515, 68, 21, f.getMethod('ok'))
+	var cancl_btn = f.newButton('<span class="fa fa-undo"/> Cancel', 300, 515, 75, 20, f.getMethod('cancel'));
 
 	//create fields & labels
 	for (var i = 0; i < col.length - 2; i++) {
 		var cr = col[i];
-		var fd = f.newField(cr, JSField.TEXT_FIELD, 300, 50 * i, 150, 25);
+		var fd = f.newField(cr, JSField.TEXT_FIELD, 300, 50 * i, col_title[i].length* 20, 25);
 		fd.name = cr;
 		fd.editable = false;
 		fd.styleClass = 'table'
@@ -71,7 +70,7 @@ function createGenericPopup(ds, types, col, col_title, win_title, width, height)
 	}
 	//add select field
 	cr = col[col.length - 2];
-	fd = f.newField(cr, JSField.CHECKS, 300, 50 * i, 75, 25);
+	fd = f.newField(cr, JSField.CHECKS, 300, 50 * i, 65, 25);
 	fd.name = cr;
 	fd.horizontalAlignment = SM_ALIGNMENT.CENTER
 	fd.styleClass = 'table'

@@ -1,19 +1,35 @@
 customProperties:"formComponent:false",
 encapsulation:60,
+extendsID:"2681F97F-F565-4C42-8E4D-A12A33F55992",
 items:[
 {
+extendsID:"C178C1B6-C410-41FB-AE94-9AEFD3FB58B4",
+text:"Solution Model",
+typeid:7,
+uuid:"00F0890B-78B5-4B70-A12E-FB8886FE6FA5"
+},
+{
+extendsID:"A88EBC0E-918F-4664-81D7-57B6D2F52914",
 height:480,
-partType:5,
 typeid:19,
 uuid:"2792E789-2B85-4B6E-AD25-29F0BDD63462"
 },
 {
-location:"10,10",
+extendsID:"47F32170-FA98-426B-8914-D7EF6301BAD2",
+location:"0,0",
+size:"1,1",
+transparent:false,
+typeid:16,
+uuid:"CDF428F1-C094-450F-8E9E-E77A490319C1",
+visible:false
+},
+{
+location:"10,55",
 onActionMethodID:"AA2924D5-C9B5-4F55-82A4-1F561DCFB503",
 onDoubleClickMethodID:"-1",
 onRightClickMethodID:"-1",
-size:"190,30",
-text:"Show Customer Selection",
+size:"250,30",
+text:"Dynamic Customer Selection Dialog",
 typeid:7,
 uuid:"DECD8ED3-1E57-4928-BE0D-4C764C52A1C5"
 }

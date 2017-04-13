@@ -4,6 +4,8 @@
 	<comment></comment>
 	<projects>
 		<project>resources</project>
+		<project>trainingcomponents</project>
+		<project>trainingservices</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>
