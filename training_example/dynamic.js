@@ -30,6 +30,28 @@ function createDynamicCustomer() {
 }
 
 /**
+ * @properties={typeid:24,uuid:"7D5F9F04-B45E-497A-9EC1-B98B267AA27A"}
+ */
+function selectLanguage(){
+	var types = [JSColumn.TEXT, JSColumn.NUMBER, JSColumn.TEXT];
+	var col = ['language','select', 'idx']
+	var col_title = ['Language', 'Select', 'ID']
+	var ds = databaseManager.createEmptyDataSet(0, col);
+	ds.addRow(['English', 0, 'en'])
+	ds.addRow(['French', 0, 'fr'])
+	
+
+	var selection = createGenericPopup(ds, types, col, col_title, 'Select Language', 460, 500);
+
+	for (var j = 1; j <= selection.getMaxRowIndex(); j++) {
+		var row = selection.getRowAsArray(j);
+		if (row[1] == 1) {
+			i18n.setLocale(row[2],i18n.getCurrentCountry());
+		}
+	}
+}
+
+/**
  * Create a generic popup form and allow selection
  * To use pass in a generic dataset with columns and types
  * var ds = databaseManager.createEmptyDataSet(0, col);

@@ -13,4 +13,7 @@
 function onSolutionOpen(arg, queryParams) {
 	//disable autosave
 	databaseManager.setAutoSave(false);
+	
+	//select language
+	scopes.dynamic.selectLanguage();
 }
