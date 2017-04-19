@@ -12,6 +12,6 @@
  * @properties={typeid:24,uuid:"C755E1D8-9B0A-4DA0-9891-40DAA2E94213"}
  */
 function onRecordInsert$customer(record) {
-	record.customerid = scopes.dataModel.createPK$customer(record.companyname);	
+	record.customerid = scopes.dataModel.createPK$customer(record.companyname);			
 	return true;
 }

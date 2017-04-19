@@ -48,7 +48,7 @@ function triggerEditButtons(t) {
 	elements.new_btn.enabled = t;
 	elements.delete_btn.enabled = t;
 	elements.save_btn.enabled = !t;
-	elements.cancel_btn.enabled = !t;
+	elements.cancel_btn.enabled = !t;	
 }
 
 /**
@@ -115,7 +115,7 @@ function onAction$cancel(event) {
 		foundset.search();		
 		foundset.loadAllRecords();
 	} else {
-		foundset.getSelectedRecord().revertChanges();
+		foundset.getSelectedRecord().revertChanges();		
 	}
 	
 }

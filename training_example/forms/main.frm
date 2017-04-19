@@ -12,28 +12,35 @@ extendsID:"2A5F4A4C-AB7B-4911-B94F-34313023357A",
 items:[
 {
 containsFormID:"BCC18E84-CDFE-4E1A-83AB-5845005D3BC4",
-location:"189,156",
+location:"70,191",
 text:"Responsive",
 typeid:15,
 uuid:"088BAB12-F735-4ED2-9B23-F841317C9327"
 },
 {
 containsFormID:"941A1041-6124-454A-9E39-186D3028C013",
-location:"282,159",
+location:"88,204",
 text:"Solution Model",
 typeid:15,
 uuid:"5AC42A15-F2E5-48AA-A1ED-2B4BAA1D70FA"
 },
 {
+containsFormID:"E5E36A27-E761-48CA-9A88-97AF0644441C",
+location:"125,218",
+text:"In Memory",
+typeid:15,
+uuid:"5B48BC5F-E709-4E9D-8347-6DCD2BD6CD10"
+},
+{
 containsFormID:"E49107D6-70AD-4C47-B626-D68F68218E21",
-location:"489,160",
+location:"199,250",
 text:"Services",
 typeid:15,
 uuid:"5F0D6FBD-C506-4ADB-B521-C50E51E0046E"
 },
 {
 containsFormID:"67146EDC-3D46-4884-8BE7-A1E4E432B20E",
-location:"392,161",
+location:"146,234",
 text:"Components",
 typeid:15,
 uuid:"AB357FD4-72B7-46A7-9F5D-DEB06F929C48"
@@ -47,7 +54,7 @@ uuid:"C381EB18-67DF-4668-A244-8939C1D48F92"
 },
 {
 containsFormID:"F4D1DB02-1382-4DC2-8B81-A3C230D71C8E",
-location:"102,155",
+location:"52,176",
 text:"Mini CRM",
 typeid:15,
 uuid:"E7B88F5A-3FD6-4057-BACF-45332664EB8B"

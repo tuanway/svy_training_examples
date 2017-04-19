@@ -1,5 +1,4 @@
 dataSource:"db:/example_data/customers",
-onAfterInsertMethodID:"5381C247-39F8-45AA-A6B0-0DD670A92EE1",
 onInsertMethodID:"C755E1D8-9B0A-4DA0-9891-40DAA2E94213",
 typeid:39,
 uuid:"3B87C822-809F-4638-94F6-558E932FD43D"
