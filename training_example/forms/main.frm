@@ -58,6 +58,13 @@ location:"52,176",
 text:"Mini CRM",
 typeid:15,
 uuid:"E7B88F5A-3FD6-4057-BACF-45332664EB8B"
+},
+{
+containsFormID:"82DE7D61-B4A2-40B9-BDAD-55BFF7817A31",
+location:"252,266",
+text:"File Plugin",
+typeid:15,
+uuid:"FAAE4C0A-425D-4709-AC99-0E64799EA165"
 }
 ],
 location:"20,130",

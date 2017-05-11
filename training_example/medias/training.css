@@ -27,3 +27,12 @@
 .calendar .fc .fc-button-group>* {
 	font-size: 15px;
 }
+
+.file_upload {	
+	border: 1px dotted black;
+	text-align : center;
+}
+
+.file_upload img{
+	width:95%;
+}
