@@ -10,7 +10,7 @@
  *
  * @properties={typeid:24,uuid:"1E825A54-8109-464F-BB36-8EA20095D833"}
  */
-function onSolutionOpen(arg, queryParams) {
+function onSolutionOpen(arg, queryParams) {	
 	//disable autosave
 	databaseManager.setAutoSave(false);
 	

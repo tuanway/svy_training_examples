@@ -20,6 +20,7 @@ uuid:"31DE92CD-BC93-4B23-A63B-7C61338DBEFD"
 },
 {
 dataProviderID:"table_name",
+editable:false,
 location:"100,75",
 name:"table_name",
 size:"110,20",
@@ -28,6 +29,7 @@ uuid:"35DCC72B-FF13-4F53-86B4-ECB69AC9D411"
 },
 {
 dataProviderID:"name",
+editable:false,
 location:"100,15",
 name:"name",
 size:"240,20",
@@ -36,6 +38,7 @@ uuid:"5828C4F7-3C28-4D3C-AC12-0412FD8C034F"
 },
 {
 dataProviderID:"info",
+editable:false,
 location:"100,45",
 name:"info",
 size:"160,20",
@@ -74,6 +77,7 @@ uuid:"C7308314-3616-42E2-9734-AD5567CD466B"
 },
 {
 dataProviderID:"idx",
+editable:false,
 location:"100,100",
 name:"idx",
 size:"140,20",
@@ -83,6 +87,7 @@ uuid:"E241050E-E51C-4610-B731-DE2D87FFC9F0"
 ],
 name:"inmemory",
 onLoadMethodID:"7F7936A7-8F37-4047-908E-52B3F9C4A125",
+onShowMethodID:"-1",
 showInMenu:true,
 typeid:3,
 uuid:"E5E36A27-E761-48CA-9A88-97AF0644441C",

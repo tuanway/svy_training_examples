@@ -1,5 +1,5 @@
 /**
- * @public 
+ * @public
  * @properties={typeid:24,uuid:"7F7936A7-8F37-4047-908E-52B3F9C4A125"}
  */
 function createInMemoryDS(){
@@ -101,6 +101,7 @@ function createGenericPopup(ds, types, col, col_title, win_title, width, height)
 
 	solutionModel.removeForm('generic_pop_up');
 	var f = solutionModel.newForm('generic_pop_up', null, null, true, width, height);
+	
 	f.view = JSForm.LOCKED_TABLE_VIEW;
 	f.dataSource = ds.createDataSource(application.getUUID().toString(), types);
 	f.extendsForm = 'generic_popup'		
@@ -109,7 +110,7 @@ function createGenericPopup(ds, types, col, col_title, win_title, width, height)
 	//add buttons and reference methods
 	var ok_btn = f.newButton('<span class="fa fa-floppy-o"/> OK', 200, 515, 68, 21, f.getMethod('ok'))
 	var cancl_btn = f.newButton('<span class="fa fa-undo"/> Cancel', 300, 515, 75, 20, f.getMethod('cancel'));
-
+	
 	//create fields & labels
 	for (var i = 0; i < col.length - 2; i++) {
 		var cr = col[i];
@@ -140,5 +141,5 @@ function createGenericPopup(ds, types, col, col_title, win_title, width, height)
 	if (ret) {
 		return ds;
 	}
-	return null;
+	return null;	
 }

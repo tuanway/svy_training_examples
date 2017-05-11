@@ -1,4 +1,10 @@
-customProperties:"formComponent:false",
+customProperties:"formComponent:false,\
+methods:{\
+onLoadMethodID:{\
+arguments:null,\
+parameters:null\
+}\
+}",
 encapsulation:60,
 extendsID:"2681F97F-F565-4C42-8E4D-A12A33F55992",
 items:[
@@ -35,7 +41,7 @@ uuid:"DECD8ED3-1E57-4928-BE0D-4C764C52A1C5"
 }
 ],
 name:"solutionModel",
-onLoadMethodID:"450891C7-BF44-4313-9E59-E8FBB21CC6A8",
+onLoadMethodID:"-1",
 showInMenu:true,
 typeid:3,
 uuid:"941A1041-6124-454A-9E39-186D3028C013"

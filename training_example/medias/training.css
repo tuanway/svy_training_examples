@@ -15,3 +15,15 @@
 .svy-dialog {
 	padding: 10px;
 }
+
+.calendar .fc-basic-view .fc-body .fc-row{
+	min-height: 1em;
+}
+
+.calendar .fc .fc-toolbar>*>:first-child {
+	font-size: 25px;
+}
+
+.calendar .fc .fc-button-group>* {
+	font-size: 15px;
+}

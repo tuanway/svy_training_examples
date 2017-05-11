@@ -1,4 +1,10 @@
-customProperties:"formComponent:false",
+customProperties:"formComponent:false,\
+methods:{\
+onHideMethodID:{\
+arguments:null,\
+parameters:null\
+}\
+}",
 dataSource:"db:/example_data/customers",
 extendsID:"2681F97F-F565-4C42-8E4D-A12A33F55992",
 items:[
@@ -32,5 +38,6 @@ uuid:"CC5ACA22-6B32-41B8-A1F5-519664A2079A"
 }
 ],
 name:"customers",
+onHideMethodID:"-1",
 typeid:3,
 uuid:"8ED9DE59-4521-4178-8AE6-8C56F777A429"

@@ -205,6 +205,7 @@ editable:false,
 location:"120,66",
 name:"companyname",
 onActionMethodID:"799AAB8F-A909-4F82-90EE-6F1560DF0DDD",
+onFocusLostMethodID:"-1",
 size:"170,30",
 typeid:4,
 uuid:"FB661928-310C-4E69-926F-F51CAED20448"
