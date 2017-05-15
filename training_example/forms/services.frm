@@ -19,7 +19,7 @@ visible:false
 },
 {
 location:"15,55",
-onActionMethodID:"82DE8600-DF5E-472E-9C06-269C83748E1A",
+onActionMethodID:"-1",
 onDoubleClickMethodID:"-1",
 onRightClickMethodID:"-1",
 size:"140,20",
