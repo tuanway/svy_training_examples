@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: trainingcomponents
+Bundle-Name: Training Components
+Bundle-Version: 1.0.0
+Package-Type: Web-Component
+
+Name: helloWorld/helloWorld.spec
+Web-Component: True
+
