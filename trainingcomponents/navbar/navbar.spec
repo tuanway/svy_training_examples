@@ -16,6 +16,20 @@
 
 	"model": 
 	{
+		"brandLogo": 
+		{
+			"type": "media"
+		},
+
+		"brandLogoStyleClass": 
+		{
+			"type": "styleclass",
+			"tags": 
+			{
+				"scope": "design"
+			}
+		},
+
 		"menuItems": 
 		{
 			"type": "menuItem[]"
@@ -27,12 +41,7 @@
 			"tags": 
 			{
 				"scope": "design"
-			},
-
-			"values": 
-			[
-				
-			]
+			}
 		},
 
 		"selectedItem": 

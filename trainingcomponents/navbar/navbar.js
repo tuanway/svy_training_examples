@@ -21,11 +21,19 @@ angular.module('trainingcomponentsNavbar', ['servoy']).directive('trainingcompon
 				$scope.model.clickedItem = null;
 
 				$scope.$watchCollection('model.menuItems', function(newValue, oldValue) {
+						//check if we have a brand logo
 						//generate menu items
 						var e = document.getElementById($scope.model.svyMarkupId)
-						for (var i = 0; i < newValue.length; i++) {
+						for (var i = newValue.length - 1; i > -1; i--) {
 							var a = document.createElement("a");
-							a.innerHTML = newValue[i].text;
+							if ($scope.model.brandLogo && (i == 0)) {
+								var l = document.createElement("img");
+								l.src = $scope.model.brandLogo;
+								l.className = $scope.model.brandLogoStyleClass;
+								a.appendChild(l)
+								a.innerHTML += '&nbsp;&nbsp;';								
+							}
+							a.innerHTML += newValue[i].text == undefined ? '' : newValue[i].text;
 							a.data = newValue[i].name;
 							a.addEventListener('click', function() {
 									$scope.model.selectedItem = this.data;
