@@ -1,10 +1,11 @@
-.navbar {
+.navbar {	
 	z-index: 20;
 	overflow: hidden;
 	background-color: #333;
 }
 
 .navbar a {
+	transition: all 1s;	
 	float: left;
 	display: block;
 	color: #f2f2f2;

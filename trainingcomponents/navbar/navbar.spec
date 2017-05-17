@@ -85,7 +85,7 @@
 			[
 				{
 					"name": "navItems",
-					"type": "Array"
+					"type": "dataprovider"
 				}
 			]
 		}

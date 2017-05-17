@@ -4,6 +4,9 @@ Bundle-Name: Training Components
 Bundle-Version: 1.0.0
 Package-Type: Web-Component
 
+Name: slideshow/slideshow.spec
+Web-Component: True
+
 Name: helloWorld/helloWorld.spec
 Web-Component: True
 

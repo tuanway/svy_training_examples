@@ -1,0 +1,19 @@
+<div id="{{::model.svyMarkupId}}" class="slideshow-container">
+
+<div ng-repeat="slide in model.slides" class="mySlides">
+  <img src="{{slide.imageUrl}}" style="width:100%">
+  <div class="text">{{slide.caption}}</div>
+</div>
+
+
+<a class="prev" svy-click="plusSlides(-1)">&#10094;</a>
+<a class="next" svy-click="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" svy-click="currentSlide(1)"></span> 
+  <span class="dot" svy-click="currentSlide(2)"></span> 
+  <span class="dot" svy-click="currentSlide(3)"></span> 
+</div>
