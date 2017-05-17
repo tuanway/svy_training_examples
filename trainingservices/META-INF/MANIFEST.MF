@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: trainingservices
+Bundle-Name: Training Services
+Bundle-Version: 1.0.0
+Package-Type: Web-Service
+
+Name: service1/service1.spec
+Web-Service: True
+
