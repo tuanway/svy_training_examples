@@ -16,23 +16,11 @@
 	padding: 10px;
 }
 
-.calendar .fc-basic-view .fc-body .fc-row{
-	min-height: 1em;
-}
-
-.calendar .fc .fc-toolbar>*>:first-child {
-	font-size: 25px;
-}
-
-.calendar .fc .fc-button-group>* {
-	font-size: 15px;
-}
-
-.file_upload {	
+.file_upload {
 	border: 1px dotted black;
-	text-align : center;
+	text-align: center;
 }
 
-.file_upload img{
-	width:95%;
+.file_upload img {
+	width: 95%;
 }

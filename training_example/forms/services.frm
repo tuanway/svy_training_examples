@@ -16,16 +16,6 @@ transparent:false,
 typeid:16,
 uuid:"DCB9DE91-F9F0-4B97-8684-7B1585D11C5D",
 visible:false
-},
-{
-location:"15,55",
-onActionMethodID:"-1",
-onDoubleClickMethodID:"-1",
-onRightClickMethodID:"-1",
-size:"140,20",
-text:"Run myfirstservice",
-typeid:7,
-uuid:"F93586FB-6072-44AC-9B47-C47E0345FEB5"
 }
 ],
 name:"services",

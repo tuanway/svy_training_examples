@@ -10,27 +10,20 @@
  */
 function onShow(firstShow, event) {
 
-//	Calendar component test
-//	elements.calendar.fullCalendar({
-//		firstDay: 1,
-//		selectable: true,
-//		editable: false,
-//		defaultView: 'month',
-//		aspectRatio: 2,
-//		columnFormat: {
-//			month: 'dd',
-//			week: 'ddd M/d',
-//			day: 'dddd M/d'
-//		},
-//		header: {
-//			right: 'prev,next',
-//			left: 'title',
-//			bottom: 'day'
-//		}
-//	});
-//	
-//	elements.calendar.refetchEvents();
+	var menu = [{
+	    id: 1,
+	    text: "Search",
+	    styleClass : "sn-large",
+	    iconStyleClass:  "glyphicon glyphicon-search"	   	
+	  },{
+		    id: 2,
+		    text: "Contacts",
+		    styleClass : "sn-large",
+		    iconStyleClass:  "fa fa-address-book-o"  
+		  },
+	  ];
+
+	  elements.sidenav.setRootMenuItems(menu);
 
 }
-
 

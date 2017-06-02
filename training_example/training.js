@@ -16,5 +16,7 @@ function onSolutionOpen(arg, queryParams) {
 	
 	//select language
 	scopes.dynamic.selectLanguage();
+	
+	plugins.ngclientutils.setViewportMetaDefaultForMobileAwareSites();
 
 }

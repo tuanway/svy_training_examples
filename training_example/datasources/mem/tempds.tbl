@@ -2,8 +2,9 @@ columns:{
 columns:[
 {
 allowNull:true,
-creationOrderIndex:3,
+creationOrderIndex:0,
 dataType:12,
+length:50,
 name:"idx"
 },
 {
@@ -15,14 +16,14 @@ name:"info"
 },
 {
 allowNull:true,
-creationOrderIndex:0,
+creationOrderIndex:2,
 dataType:12,
 length:50,
 name:"name"
 },
 {
 allowNull:true,
-creationOrderIndex:2,
+creationOrderIndex:3,
 dataType:12,
 length:50,
 name:"table_name"

@@ -4,11 +4,8 @@
 	<comment></comment>
 	<projects>
 		<project>resources</project>
-		<project>trainingservices</project>
-		<project>bootstrapcalendar</project>
 		<project>exampleDataModel</project>
 		<project>exampleUI</project>
-		<project>trainingcomponents</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>
