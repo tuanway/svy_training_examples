@@ -31,7 +31,7 @@ uuid:"9E9B8D40-EBA9-4DA5-8407-81C023CE6D51"
 }
 ],
 name:"components",
-onShowMethodID:"22A0FE41-E4DB-42C5-9404-5E74903A789F",
+onShowMethodID:"-1",
 showInMenu:true,
 typeid:3,
 uuid:"67146EDC-3D46-4884-8BE7-A1E4E432B20E"
