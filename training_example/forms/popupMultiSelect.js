@@ -12,8 +12,8 @@ var selection = '';
  * @properties={typeid:24,uuid:"4E76B7B7-793A-41E1-BC9A-0B8648CAB61D"}
  */
 function showDropDown(event) {
-	plugins.window.showFormPopup(elements.select, forms.multiselect_popup, null, null);
-	forms.multiselect_popup.open(event, selection, callback, 'test');
+	plugins.window.showFormPopup(elements.select, forms.multiselect_popup, forms.popupMultiSelect, selection);
+	forms.multiselect_popup.open(event, selection, callback, 'test');	
 }
 
 /**
@@ -38,3 +38,4 @@ function callback() {
 	}
 	selection = 'Multiple Selected';
 }
+

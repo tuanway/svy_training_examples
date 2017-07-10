@@ -52,7 +52,7 @@ function onHide(event) {
  * @properties={typeid:24,uuid:"BA0DC616-160A-4AAD-BBF4-262034802D18"}
  */
 function close() {
-plugins.window.closeFormPopup(null);
+plugins.window.closeFormPopup(data);
 }
 
 /**
