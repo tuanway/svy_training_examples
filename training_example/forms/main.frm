@@ -55,7 +55,7 @@ uuid:"C381EB18-67DF-4668-A244-8939C1D48F92"
 {
 containsFormID:"A7BA3CF3-EA75-4694-9D08-361065884019",
 location:"305,282",
-text:"Other",
+text:"Multiselect Popup",
 typeid:15,
 uuid:"C42F9340-7B13-47C5-A7FF-46D0C38FDA59"
 },

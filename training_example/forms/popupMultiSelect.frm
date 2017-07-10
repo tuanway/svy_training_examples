@@ -35,7 +35,7 @@ visible:false
 },
 {
 extendsID:"C178C1B6-C410-41FB-AE94-9AEFD3FB58B4",
-text:"Other",
+text:"Multiselect Popup",
 typeid:7,
 uuid:"F7830E7D-F42C-4136-A4D3-44880D766F09"
 }
