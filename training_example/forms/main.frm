@@ -67,6 +67,13 @@ typeid:15,
 uuid:"E7B88F5A-3FD6-4057-BACF-45332664EB8B"
 },
 {
+containsFormID:"9FB077C5-1F9A-4A03-829B-47680E404A5B",
+location:"358,298",
+text:"Multi DS Search",
+typeid:15,
+uuid:"F742EC5F-18DB-41F2-B433-70D619C7BB54"
+},
+{
 containsFormID:"82DE7D61-B4A2-40B9-BDAD-55BFF7817A31",
 location:"252,266",
 text:"File Plugin",
