@@ -3,7 +3,7 @@ encapsulation:60,
 items:[
 {
 dataProviderID:"data",
-displayType:4,
+displayType:12,
 location:"5,5",
 name:"vl",
 size:"140,114",
