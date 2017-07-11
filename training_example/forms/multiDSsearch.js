@@ -17,7 +17,13 @@ var searchText = '';
 function onAction$search(event) {
 	if (searchText) {
 		forms.MDSSearchPopup.setupInMemDS()
-		var r = forms.MDSSearchPopup.search(searchText);
+		/** @type {Array<{foundset:JSFoundSet,PKdataprovider:String,displaydataprovider:String,searchdataproviders:Array<String>,headerText:String}>} */
+		var searchObj = [{
+				foundset: datasources.db.example_data.customers.getFoundSet(), PKdataprovider: 'customerid', displaydataprovider: 'companyname', searchdataproviders: ['companyname'], headerText: 'Customers'
+			}, {
+				foundset: datasources.db.example_data.employees.getFoundSet(), PKdataprovider: 'employeeid', displaydataprovider: 'display_full_name', searchdataproviders: ['firstname','lastname'], headerText: 'Employees'
+			}]
+		var r = forms.MDSSearchPopup.search(searchText, searchObj);
 		plugins.window.showFormPopup(elements.searchbox, forms.MDSSearchPopup, elements.searchbox, null, 620, (r * 140) > 310 ? 310 : (r * 140));
 	}
 }
