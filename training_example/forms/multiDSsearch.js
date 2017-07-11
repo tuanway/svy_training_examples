@@ -38,7 +38,8 @@ function onAction$search(searchText) {
 	plugins.window.showFormPopup(elements.searchbox, forms.MDSSearchPopup, elements.searchbox, null, 620, (r * 140) > 310 ? 310 : (r * 140));
 	
 	//TODO: Bold highlighting of what matches
-	
+	//TODO: Allow arrow down selection of records
+	//TODO: Allow multiple display data providers?
 	keyListenerEnabled = true;
 }
 
