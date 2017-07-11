@@ -21,6 +21,7 @@ location:{
 x:9,
 y:9
 },
+onCellClick:"07142F89-7CAD-4F60-B5A2-A10DF1A42E35",
 pageSize:1000,
 performanceSettings:{
 maxRenderedRows:1000,

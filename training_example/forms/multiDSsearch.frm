@@ -3,6 +3,10 @@ methods:{\
 onLoadMethodID:{\
 arguments:null,\
 parameters:null\
+},\
+onShowMethodID:{\
+arguments:null,\
+parameters:null\
 }\
 }",
 dataSource:"mem:multiDS",
@@ -22,15 +26,12 @@ typeid:19,
 uuid:"4665CFD8-3831-4BDF-BEBE-4377279C7D15"
 },
 {
-formIndex:3,
-location:"10,103",
-onActionMethodID:"23B939D4-680B-478E-B8A4-F33CAD0C2C8D",
-onDoubleClickMethodID:"-1",
-onRightClickMethodID:"-1",
-size:"150,20",
-text:"Activate key listener",
-typeid:7,
-uuid:"6AD92A91-131A-46CA-81FD-5EBEB5DEE927"
+formIndex:2,
+location:"461,55",
+name:"f",
+typeid:4,
+uuid:"894B49C1-1EFD-4EAA-91B0-28184AD2864B",
+visible:false
 },
 {
 dataProviderID:"searchValue",
@@ -55,6 +56,7 @@ visible:false
 ],
 name:"multiDSsearch",
 onLoadMethodID:"-1",
+onShowMethodID:"417CAF98-CA5F-45ED-BED3-BB04392C8270",
 showInMenu:true,
 typeid:3,
 uuid:"9FB077C5-1F9A-4A03-829B-47680E404A5B"

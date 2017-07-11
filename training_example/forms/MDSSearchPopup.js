@@ -85,3 +85,22 @@ function search(searchText, dataArray) {
 function setupInMemDS() {
 	databaseManager.createEmptyDataSet().createDataSource('multiDS');
 }
+
+/**
+ * Called when the mouse is clicked on a row/cell (foundset and column indexes are given) or.
+ * when the ENTER key is used then only the selected foundset index is given
+ * Use the record to exactly match where the user clicked on
+ *
+ * @param {Number} foundsetindex
+ * @param {Number} [columnindex]
+ * @param {JSRecord} [record]
+ * @param {JSEvent} [event]
+ *
+ * @private
+ *
+ * @properties={typeid:24,uuid:"07142F89-7CAD-4F60-B5A2-A10DF1A42E35"}
+ */
+function onCellClick(foundsetindex, columnindex, record, event) {
+	plugins.dialogs.showInfoDialog('INFO','Selected item id : ' + record.id)
+
+}
