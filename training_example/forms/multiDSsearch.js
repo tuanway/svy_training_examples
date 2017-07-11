@@ -16,8 +16,8 @@ var searchText = '';
  */
 function onAction$search(event) {
 	if (searchText) {
-	forms.MDSSearchPopup.setupInMemDS()
-	forms.MDSSearchPopup.search(searchText);
-	plugins.window.showFormPopup(elements.searchbox,forms.MDSSearchPopup,elements.searchbox,null,620,380);
+		forms.MDSSearchPopup.setupInMemDS()
+		var r = forms.MDSSearchPopup.search(searchText);
+		plugins.window.showFormPopup(elements.searchbox, forms.MDSSearchPopup, elements.searchbox, null, 620, (r * 140) > 310 ? 310 : (r * 140));
 	}
 }

@@ -99,6 +99,8 @@ function search(searchText) {
 		application.output('No results found.')
 	}
 	
+	return size;
+	
 }
 
 /**
