@@ -26,14 +26,6 @@ typeid:19,
 uuid:"4665CFD8-3831-4BDF-BEBE-4377279C7D15"
 },
 {
-formIndex:2,
-location:"461,55",
-name:"f",
-typeid:4,
-uuid:"894B49C1-1EFD-4EAA-91B0-28184AD2864B",
-visible:false
-},
-{
 dataProviderID:"searchValue",
 formIndex:1,
 location:"10,50",

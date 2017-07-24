@@ -1,4 +1,18 @@
 /**
+ * @type {Number}
+ *
+ * @properties={typeid:35,uuid:"BDC3030A-0EB1-4A5F-9B7C-8100831B472C",variableType:8}
+ */
+var test1 = 1.23;
+
+/**
+ * @type {String}
+ *
+ * @properties={typeid:35,uuid:"FB1AF214-E42A-4965-BF71-9A02F76446D8"}
+ */
+var test2 = '1.23'
+
+/**
  * @type {String}
  *
  * @properties={typeid:35,uuid:"635330E4-CE23-43A6-B031-72F506E8FE77"}
@@ -21,6 +35,7 @@ var keyListenerEnabled = false;
  * @AllowToRunInFind
  */
 function onAction$search(searchText) {
+	if (searchText.length<2) return;
 	forms.MDSSearchPopup.setupInMemDS()
 	/** @type {Array<{foundset:JSFoundSet,PKdataprovider:String,displaydataprovider:String,searchdataproviders:Array<String>,headerText:String}>} */
 	var searchObj = [{

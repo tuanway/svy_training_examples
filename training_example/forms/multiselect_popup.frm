@@ -3,9 +3,10 @@ encapsulation:60,
 items:[
 {
 dataProviderID:"data",
-displayType:12,
+displayType:4,
 location:"5,5",
 name:"vl",
+onDataChangeMethodID:"FBD39BCC-E3B6-4B0A-B57F-00C12840ED12",
 size:"140,114",
 typeid:4,
 uuid:"07DD2FDC-059C-4F56-9EB3-DC1C335D763A",
@@ -29,6 +30,7 @@ uuid:"CD3E818E-3DBD-41DB-9A79-9B802F60C1C9"
 }
 ],
 name:"multiselect_popup",
+navigatorID:"-1",
 onHideMethodID:"B64704B3-F98E-4C4E-A003-BD135DE31F86",
 showInMenu:true,
 size:"151,146",

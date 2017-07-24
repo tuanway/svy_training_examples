@@ -18,6 +18,13 @@ typeid:15,
 uuid:"088BAB12-F735-4ED2-9B23-F841317C9327"
 },
 {
+containsFormID:"51C729A7-4905-4E88-B2F2-A679FEE16082",
+location:"411,314",
+text:"C.R.U.D Table View",
+typeid:15,
+uuid:"1AB6AE45-C022-4DC7-A333-2A959ABCDA48"
+},
+{
 containsFormID:"941A1041-6124-454A-9E39-186D3028C013",
 location:"88,204",
 text:"Solution Model",
