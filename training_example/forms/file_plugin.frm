@@ -4,7 +4,7 @@ extendsID:"2681F97F-F565-4C42-8E4D-A12A33F55992",
 items:[
 {
 formIndex:2,
-location:"15,55",
+location:"333,56",
 name:"img_display",
 size:"298,213",
 styleClass:"file_upload img",
@@ -29,20 +29,53 @@ visible:false
 },
 {
 formIndex:1,
-location:"183,278",
+location:"30,333",
 onActionMethodID:"FCA48287-52E4-45FC-9DBB-C14404B4F60F",
 onDoubleClickMethodID:"-1",
 onRightClickMethodID:"-1",
-size:"130,20",
+size:"270,83",
 text:"Image Upload",
 typeid:7,
 uuid:"5745D5BA-AC98-4328-A6D4-D300A43D4EA2"
 },
 {
 extendsID:"C178C1B6-C410-41FB-AE94-9AEFD3FB58B4",
-text:"File Plugin",
+text:"File Upload",
 typeid:7,
 uuid:"6946CF1F-2A3E-4148-A372-44C9BD49116A"
+},
+{
+location:"104,302",
+size:"137,20",
+text:"OR Click below",
+typeid:7,
+uuid:"9CEA4478-0503-4DF4-BC41-06B671369996"
+},
+{
+enabled:false,
+json:{
+dataProviderID:"f",
+displaysTags:false,
+enabled:false,
+location:{
+x:22,
+y:60
+},
+onDataChangeMethodID:"D5F05EA5-98CC-4855-B1A5-5E327082FEEC",
+onSuccess:"06D86C3F-C772-49D8-8A2F-204C9E50E8F2",
+resultDisplayTimeout:2000,
+size:{
+height:213,
+width:282
+},
+visible:true
+},
+location:"22,60",
+name:"fileupload",
+size:"282,213",
+typeName:"servoyextra-fileupload",
+typeid:47,
+uuid:"C9EB8DA5-1D19-46C6-82AC-2EA29E41C1C4"
 }
 ],
 name:"file_plugin",
