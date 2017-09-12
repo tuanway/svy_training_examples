@@ -6,6 +6,8 @@
 		<project>resources</project>
 		<project>exampleDataModel</project>
 		<project>exampleUI</project>
+		<project>svyLookup</project>
+		<project>svySearch</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>
